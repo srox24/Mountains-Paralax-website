@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    height: 100vh;
+    
+    margin: 0;
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+.pimg1{
+    background-image: url(images/img1.jpg);
+    min-height: 100%; 
+}
+.pimg2{
+    background-image: url(images/mt-everest.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(images/k2.jpg);
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url(images/img4.jpg);
+    min-height: 400px;
+}
+.pimg5{
+    background-image: url(images/lhotse.jpg);
+    min-height: 400px;
+}
+.pimg6{
+    background-image: url(images/img5.jpg);
+    min-height: 400px;
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4,.pimg5,.pimg6{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ptext{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: black;
+}
+.bgtext{
+    padding: 20px;
+    background: #0CABA8;
+    border-radius: 10px;
+}
+.ptext2{
+    position:absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.bgtext2{
+    padding: 10px 15px;
+    background: #8FC1B5;
+    border-radius: 10px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color:#28403D;
+}
